@@ -1,0 +1,436 @@
+@import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+.not-found {
+  $light-grey: #e0e2f4;
+  $grey: #aaaaaa;
+
+  $base-font-size: 20px;
+  $font-stack: 'Aboreto',
+  cursive;
+
+  main,
+  h1,
+  p,
+  a {
+    color: $light-grey;
+  }
+
+  main,
+  p {
+    font: normal #{$base-font-size}/1.25rem $font-stack;
+  }
+
+  h1 {
+    font: normal 2.75rem/1.05em $font-stack;
+  }
+
+
+
+  .container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .link {
+    margin-top: 20px;
+    margin-left: 50%;
+    text-decoration: none;
+    padding: 0 9px 2px 8px;
+
+    &:hover,
+    &:focus {
+      background: $grey;
+      color: #FFFFFF;
+    }
+  }
+
+  .title {
+    margin-bottom: 50px;
+  }
+
+}
+
+.header {
+  font-family: 'Aboreto', cursive;
+}
+
+.footer {
+  font-family: 'Aboreto', cursive;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #448899;
+  color: white;
+}
+
+.all-home {
+  background-color: #F8A964;
+  font-family: 'Aboreto', cursive;
+}
+
+.round-pics {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: fit-content;
+}
+
+.home-page-header {
+  text-align: center;
+  color: #448899;
+}
+
+.home-page {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-2 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.flag {
+  text-align: center;
+}
+
+.to-top-button {
+  margin-left: 45%;
+}
+
+.resource-page {
+  background-color: #FFFFF0;
+}
+
+.resource-header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: 'VT323', monospace, bold;
+  color: #448899;
+}
+
+.left-card-resource {
+  margin-left: 270px;
+  margin-bottom: 20px;
+}
+
+.right-card-resource {
+  margin-bottom: 20px;
+}
+
+.left-card-title-resource {
+  font-family: 'Aboreto', cursive;
+  color: #77DDEE;
+  font-size: x-large;
+  text-align: center;
+}
+
+.right-card-title-resource {
+  font-family: 'Aboreto', cursive;
+  color: #77DDEE;
+  font-size: x-large;
+  text-align: center;
+}
+
+.about-us-page {
+  background-color: #F8A964;
+  font-family: 'Aboreto', cursive;
+  margin: auto;
+  width: 100%;
+  height: 1044px;
+}
+
+.about-us-header {
+  color: #448899;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.about-button {
+  margin-bottom: 500px;
+  position: relative;
+  top: 2%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.collapse {
+  height: 900px;
+  width: 950px;
+  margin-left: 245px;
+}
+
+.about-header {
+  text-align: center;
+  color: white;
+  background-color: #448899;
+}
+
+.about-card-body {
+  height: 50px;
+  width: 940px;
+  text-align: center;
+  font-size: 11pt;
+}
+
+.team-card{
+  height: 300px;
+  background-color: #FFFFF0;
+}
+
+.pua-bit {
+  height:150px;
+  width: 150px;
+  margin-left: 798px;
+}
+
+.nicole-bit {
+  height: 150px;
+  width: 150px;
+  margin-left: 400px;
+}
+
+.will-bit {
+  height: 150px;
+  width: 150px;
+}
+
+
+.show-page{
+  background-color: #FFFFF0 ;
+  font-family: 'Aboreto', cursive;
+  width: 100%;
+  height: auto;
+  padding-top: 16px;
+  padding-bottom: 272px;
+}
+
+.show-cards{
+  border-color:#F8A964 ;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: #F8A964;
+}
+
+.show-button{
+  background-color: #77DDEE;
+  border-color: #448899;
+  color: #448899;
+}
+
+.show-header{
+  color: #448899;
+  text-align: center;
+  font-family: 'Aboreto', cursive;
+  font-size: 32px;
+  padding-top: 20px;
+  background-color: #FFFFF0;
+}
+
+.login-header{
+  margin-left: 277px;
+  margin-right: 250px;
+  color: #448899;
+  font-family: 'Aboreto', cursive;
+  font-size: 40px;
+  background-color: #77DDEE;
+  margin-top: 146px;
+}
+
+.login-for-mbox{
+  background-color: #FFFFF0;
+  width: 700px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.login-page{
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #77DDEE;
+  position: relative;
+  overflow: hidden;
+}
+
+.log{
+  padding-top: 25px;
+  color: #F8A964;
+  margin-left: 200px;
+    font-size: 33px;
+}
+
+.email-field{
+  padding-top: 15px;
+  margin-left: 268px;
+  color: #77DDEE
+}
+
+.password-field{
+  padding-top: 9px;
+  margin-left: 268px;
+  color: #77DDEE
+}
+.coco-field{
+  padding-top: 9px;
+  margin-left: 300px;
+  color: #448899
+}
+
+.actions{
+  margin-left: 328px;
+  padding-top: 10px;
+}
+
+.links{
+  margin-left: 282px;
+  padding-top: 44px;
+}
+
+.signup-page{
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #77DDEE;
+  position: relative;
+  overflow: hidden;
+}
+
+.signup-header{
+  margin-left: 277px;
+  margin-right: 250px;
+  color: #448899;
+  font-family: 'Aboreto', cursive;
+  font-size: 40px;
+  background-color: #77DDEE;
+  margin-top: 146px;
+}
+
+.signup-for-mbox{
+  background-color: #FFFFF0;
+  width: 700px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign{
+  padding-top: 25px;
+  color: #F8A964;
+  margin-left: 180px;
+    font-size: 33px;
+}
+
+.field{
+  padding-top: 15px;
+  margin-left: 268px;
+  color: #77DDEE
+}
+
+.login-link{
+  margin-left: 341px;
+  padding-top: 44px;
+}
+
+.index-page {
+  font-family: 'Aboreto', cursive;
+  background-color: #FFFFF0;
+}
+
+.index-header {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #448899;
+}
+
+.index-card-group {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.index-card {
+  margin-left: 2px;
+  margin-right: 2px;
+  height: 520px;
+  margin-bottom: 7px;
+}
+
+.index-img {
+  height: 300px;
+}
+
+.pro-index-img {
+  height: 300px;
+  margin-top: 5px;
+}
+
+.pro-cards-group {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.pro-cards {
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  color: #448899;
+}
+
+.pro-page {
+  background-color: #F8A964;
+  font-family: 'Aboreto', cursive;
+  width: 100%;
+  height: auto;
+}
+
+.pro-button {
+  margin-right: 5px;
+}
+
+.whole-edit-page {
+  background-color: #F8A964;
+  height: auto;
+}
+
+.user-edit-header {
+  text-align: center;
+  font-family: 'Aboreto', cursive;
+  padding-top: 10px;
+  color: #448899;
+}
+
+.user-edit-form {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.edit-form-label {
+  color: #448899;
+  margin-left: 275px;
+}
+
+.edit-input {
+  width: 800px;
+  margin-left: 275px;
+}
+
+.edit-button {
+  margin-bottom: 155px;
+  margin-top: 30px;
+  margin-left: 45%;
+  background-color: #448899;
+}
